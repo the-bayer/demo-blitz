@@ -21,7 +21,8 @@
           "minInstances": 1,
           "startCommand": "blitz start",
           "healthCheckPath": "/",
-          "enableCloudfrontSwr": true
+          "enableCloudfrontSwr": true,
+          "versionHistoryCount": 5
         },
         {
           "id": "database-MoNOaf",
