@@ -4,7 +4,7 @@
       "id": "production",
       "name": "Production",
       "region": "eu-north-1",
-      "source": { "branch": "main" },
+      "source": { "branch": "fcjson-fromrepo" },
       "services": [
         {
           "id": "blitz-app-ybriyO",
