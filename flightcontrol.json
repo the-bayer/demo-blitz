@@ -45,7 +45,7 @@
      {
       "id": "fromRepo",
       "name": "fromRepo",
-      "region": "eu-north-1",
+      "region": "eu-west-1",
       "source": { "branch": "main" },
       "services": [
         {
@@ -56,7 +56,8 @@
           "type": "fargate",
           "memory": 0.5,
           "basePath": ".",
-          "buildType": "nixpacks",
+          "buildType": "fromRepository",
+          "containerImage": {"registryId":"eu-west-1-v2031h7", "repository": "blitz-app-4h1ag0by"}
           "buildCommand": "blitz build && blitz prisma migrate deploy",
           "envVariables": {},
           "maxInstances": 1,
