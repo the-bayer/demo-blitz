@@ -42,14 +42,14 @@
         }
       ]
     },
-    {
-      "id": "main-manual",
-      "name": "main-manual",
+     {
+      "id": "fromRepo",
+      "name": "fromRepo",
       "region": "eu-north-1",
-      "source": { "branch": "main", "trigger": "manual" },
+      "source": { "branch": "main" },
       "services": [
         {
-          "id": "blitz-app-ybriyO",
+          "id": "blitz-app-ybriy2",
           "cpu": 0.25,
           "name": "Blitz App",
           "port": 3000,
@@ -63,7 +63,8 @@
           "minInstances": 1,
           "startCommand": "blitz start",
           "healthCheckPath": "/",
-          "enableCloudfrontSwr": true
+          "enableCloudfrontSwr": true,
+          "versionHistoryCount": 5
         },
         {
           "id": "database-MoNOaf",
