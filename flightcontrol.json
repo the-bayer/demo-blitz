@@ -57,7 +57,7 @@
           "memory": 0.5,
           "basePath": ".",
           "buildType": "fromRepository",
-          "containerImage": {"registryId":"eu-west-1-v2031h7", "repository": "blitz-app-4h1ag0by"}
+          "containerImage": {"registryId":"eu-west-1-v2031h7", "repository": "blitz-app-4h1ag0by", "tag":"clh4vdzjb00bscalyjuxo643p"}
           "buildCommand": "blitz build && blitz prisma migrate deploy",
           "envVariables": {},
           "maxInstances": 1,
